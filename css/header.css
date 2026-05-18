@@ -1,3 +1,10 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .header-logo {
   color: #2e2f42;
   font-weight: 700;
@@ -16,7 +23,21 @@
   font-weight: 500;
   font-size: 16px;
   color: #2e2f42;
+  flex-grow: 1;
+  padding-left: 76px;
 }
+
+.nav-header-list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
@@ -24,6 +45,11 @@
 
 .nav-link:active {
   color: #404bbf;
+}
+
+.header-address-list {
+  display: flex;
+  column-gap: 40px;
 }
 
 .header-address {

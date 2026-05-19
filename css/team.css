@@ -11,9 +11,18 @@
   color: #2e2f42;
 }
 
+.section-team-list {
+  display: flex;
+  gap: 24px;
+}
+
 .section-team-item {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  width: 264px;
+  height: 380px;
 }
+
 .section-team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -21,7 +30,12 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
 }
+
 .section-team-text {
   text-align: center;
 }

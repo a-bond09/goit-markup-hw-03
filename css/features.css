@@ -1,3 +1,8 @@
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .section-features-subtitle {
   font-weight: 500;
   font-size: 20px;

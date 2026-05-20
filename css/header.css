@@ -51,12 +51,17 @@
   color: #404bbf;
 }
 
+.header-address {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .header-address-list {
   display: flex;
   column-gap: 40px;
 }
 
-.header-address {
+.header-address-link {
   font-style: normal;
 }
 
